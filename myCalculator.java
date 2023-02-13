@@ -14,6 +14,22 @@ public assignmentThree{
 		return sum;
 	}
 
+	public int multiply(int [] myList){
+
+		int product = 1;
+
+			for(int i = 0; i < myList.length; i++){
+
+				product = product * myList[i];
+
+			}
+
+
+			return product;
+
+
+	}
+
 
 
 }
