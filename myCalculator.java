@@ -68,9 +68,9 @@ public class myCalculator{
 			int myProduct = multiply(newList, count);
 			int[] myReversedList = reverse(newList, count);
 
-			System.out.println("The sum was " + mySum);
-			System.out.println("The product was " + myProduct); 
-			System.out.print("The reversed array was ");
+			System.out.println("The sum is " + mySum);
+			System.out.println("The product is " + myProduct); 
+			System.out.print("The reversed array is ");
 
 			for(int j = 0; j < myReversedList.length; j++){
 	
