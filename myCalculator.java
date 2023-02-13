@@ -74,7 +74,7 @@ public class myCalculator{
 
 			for(int j = 0; j < myReversedList.length; j++){
 	
-				System.out.print(myReversedList[j] + " ");
+				System.out.print(myReversedList[j] + ", ");
 
 			}
 
