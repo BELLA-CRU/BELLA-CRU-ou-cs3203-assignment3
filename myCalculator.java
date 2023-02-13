@@ -4,41 +4,47 @@ import java.util.Arrays;
 
 public class myCalculator{
 
+	//method adds the elements in the array
 	public static int add(int [] myList){
 
 		int sum = 0;
 
+		//iterates through array and adds the elements together
 		for(int i = 0; i < myList.length; i++){
 
 			sum += myList[i];
 
 		}
 
-
+		//return the sum
 		return sum;
 	}
 
+	//method multiplies the elements in the array
 	public static int multiply(int [] myList, int count){
 
 		int product = 1;
 
-			for(int i = 0; i < count; i++){
+		//iterates through array and multiplies the elements 
+		for(int i = 0; i < count; i++){
 				
-				product = product * myList[i];
+			product = product * myList[i];
 
-			}
+		}
 
-
-			return product;
+		//return the product
+		return product;
 
 
 	}
 
+	//method reverses the elements in the array
 	public static int[] reverse(int [] myList, int count){
 
 		int[] reversedList = new int[count];
 		int j = 0;
 
+		//iterates through array and reverses the order
 		for(int i = count-1; i >= 0; i--){
 
 			reversedList[j] = myList[i];
@@ -46,6 +52,7 @@ public class myCalculator{
 
 		}
 
+		//returns the reversed array
 		return reversedList;
 
 	}
