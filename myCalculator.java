@@ -57,6 +57,7 @@ public class myCalculator{
 
 	}
 
+	//my main method 
 	public static void main(String args[]){
 
 			Scanner stdin = new Scanner(System.in); 
